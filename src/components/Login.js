@@ -30,8 +30,7 @@ export default function Login() {
     <>
       <Card>
         <Card.Body>
-          <h2 className="text-center mb-4">Log In</h2>
-          {error && <Alert variant="danger">{error}</Alert>}
+          <h2 className="text-center">Log In</h2>
           <Form onSubmit={Submit}>
             <Form.Group id="email">
               <Form.Label>Email</Form.Label>
@@ -45,13 +44,10 @@ export default function Login() {
               Log In
             </Button>
           </Form>
-          <div className="w-100 text-center mt-3">
-            <Link to="/forgot-password">Forgot Password?</Link>
-          </div>
         </Card.Body>
       </Card>
-      <div className="w-100 text-center mt-2">
-        Need an account? <Link to="/">Sign Up</Link>
+      <div className="text-center">
+        Need an account? <Link to="/">Register</Link>
       </div>
     </>
   )

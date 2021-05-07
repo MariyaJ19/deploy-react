@@ -61,7 +61,7 @@ export default function Dashboard() {
   
      
       <div className="logoutLink">
-        <Button className="btn btn-positive w-100 h-100" onClick={Logout}> 
+        <Button className=" btn-positive w-100" onClick={Logout}> 
           Log Out
         </Button>
       </div>

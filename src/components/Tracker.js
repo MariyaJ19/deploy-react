@@ -78,8 +78,8 @@ const Tracker =() => {
                                 <Input title ="Brand" focus value={aBrand} onChange ={(e) =>{setBrand(e.target.value);}} />
                             </Form.Field>
                             <Form.Field>
-                                <Button colour ="green" onClick={()=>{AddDB();}}
-                                positive
+                                <Button color ="primary" onClick={()=>{AddDB();}}
+                                
                                 >
                                    
                                     Add
